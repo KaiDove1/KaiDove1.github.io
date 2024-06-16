@@ -2,11 +2,13 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import './Sidebar.css';
 
+import image from '../../resources/kai-kanji.svg';
+
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="logo">
-        <img src="path_to_logo" alt="Logo" />
+        <img src={image} alt="Logo" />
       </div>
       <nav>
         <div className="main-links">
@@ -18,16 +20,16 @@ const Sidebar = () => {
         </div>
       </nav>
       <div className="interfaces">
-        <h3>HUMAN INTERFACE</h3>
+        <h3>Epsilon</h3>
         <ul>
-          <li>Apple</li>
-          <li>GoodNotes</li>
+          <li>Text</li>
+          <li>Text</li>
         </ul>
-        <h3>WEB INTERFACE</h3>
+        <h3>Text</h3>
         <ul>
-          <li>Berkeleytime</li>
-          <li>Marqeta</li>
-          <li>PropertyGuru</li>
+          <li>Text</li>
+          <li>Text</li>
+          <li>Text</li>
         </ul>
       </div>
       <div className="contact">

@@ -2,6 +2,7 @@
   --text-color: #333;
   --hover-color: #817f7f; /* Adjust this to the lighter color you prefer */
   --border-color: #ddd; /* Color of the section borders */
+  --image-background-color: #f4f4f4; /* Background color of the image */
 }
 
 .sidebar {
@@ -14,16 +15,19 @@
 }
 
 .logo {
-  padding-top : 10px;
   margin-bottom: 0; /* Remove bottom margin */
-  text-align: left;
-  padding-left: 20px;
+  text-align: center;
   border-right: 1px solid var(--border-color);
+  padding: 20px 0; /* Add padding to create space around the image */
 }
 
 .logo img {
-  width: 100px;
+  width: 50px;
+  background-color: var(--image-background-color);
+  border-radius: 15px;
+  padding: 10px; /* Add padding to create space inside the background */
 }
+
 
 .main-links, .interfaces, .contact {
   border: 1px solid var(--border-color);

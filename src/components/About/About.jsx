@@ -6,7 +6,7 @@ const MainContent = () => {
     <div className="main-content">
       <div className="header">
         <h1>Kai Dove</h1>
-        <h2>庄鎧鴻 /zhuāng kǎi hóng/</h2>
+        <h2>海 / カイ (Kai)</h2>
       </div>
       <div className="info">
         <p>
