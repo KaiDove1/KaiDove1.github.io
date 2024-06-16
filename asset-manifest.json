@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.e09a6818.css",
-    "main.js": "/PersonalWebsite/static/js/main.7cf045fe.js",
-    "static/js/453.253ccfac.chunk.js": "/PersonalWebsite/static/js/453.253ccfac.chunk.js",
-    "static/media/sunset_grounds_ss_18.jpg": "/PersonalWebsite/static/media/sunset_grounds_ss_18.987f080ba00036174d43.jpg",
-    "static/media/kai-kanji.svg": "/PersonalWebsite/static/media/kai-kanji.90dd394206fa57a09ccd1e1987e803e7.svg",
-    "index.html": "/PersonalWebsite/index.html",
-    "main.e09a6818.css.map": "/PersonalWebsite/static/css/main.e09a6818.css.map",
-    "main.7cf045fe.js.map": "/PersonalWebsite/static/js/main.7cf045fe.js.map",
-    "453.253ccfac.chunk.js.map": "/PersonalWebsite/static/js/453.253ccfac.chunk.js.map"
+    "main.css": "/KaiDove1.github.io/static/css/main.e09a6818.css",
+    "main.js": "/KaiDove1.github.io/static/js/main.3133c86a.js",
+    "static/js/453.253ccfac.chunk.js": "/KaiDove1.github.io/static/js/453.253ccfac.chunk.js",
+    "static/media/sunset_grounds_ss_18.jpg": "/KaiDove1.github.io/static/media/sunset_grounds_ss_18.987f080ba00036174d43.jpg",
+    "static/media/kai-kanji.svg": "/KaiDove1.github.io/static/media/kai-kanji.40d916656b87a4751b971c276d3893da.svg",
+    "index.html": "/KaiDove1.github.io/index.html",
+    "main.e09a6818.css.map": "/KaiDove1.github.io/static/css/main.e09a6818.css.map",
+    "main.3133c86a.js.map": "/KaiDove1.github.io/static/js/main.3133c86a.js.map",
+    "453.253ccfac.chunk.js.map": "/KaiDove1.github.io/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e09a6818.css",
-    "static/js/main.7cf045fe.js"
+    "static/js/main.3133c86a.js"
   ]
 }
