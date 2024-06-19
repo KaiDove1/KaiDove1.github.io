@@ -1,40 +1,186 @@
-.main-content {
-    padding: 40px;
-    background-color: #fff;
-  }
-  
-  .header {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .header h1 {
-    font-size: 48px;
-    margin: 0;
-  }
-  
-  .header h2 {
-    font-size: 24px;
-    color: #888;
-    margin: 10px 0;
-  }
-  
-  .header p {
-    font-size: 16px;
-    color: #555;
-    margin-top: 20px;
-  }
-  
-  .images {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .images img {
-    width: calc(25% - 20px);
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
+/* About.css */
+.about-content {
+  padding: 40px;
+  background-color: #fff;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #888;
+  margin: 10px 0;
+}
+
+/* Bio Section */
+.bio-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.bio-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.bio-text {
+  flex: 2;
+}
+
+.image-box {
+  position: relative;
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.bio-text p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Education Section */
+.education {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+  border-top: 2px solid #000000; /* Added top border */
+  margin-bottom: 40px;
+}
+
+.education h2 {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #aaa;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.education-text {
+  flex: 1;
+}
+
+.education-text h3 {
+  font-size: 22px;
+  margin-bottom: 0px;
+  font-weight: 550;
+}
+
+.education-text h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #aaa;
+}
+
+.education-degree {
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #555;
+}
+
+.education-dates {
+  font-size: 10px; /* Smaller font size for the dates */
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.education-image {
+  margin-left: 40px;
+  text-align: center;
+}
+
+.education-image img {
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+/* Things I Like Section */
+.things-i-like {
+  padding: 40px 0;
+  background-color: #fff;
+  border-top: 2px solid #000000; /* Added top border */
+}
+
+.things-i-like h2 {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #aaa;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.things-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.things-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.things-text {
+  flex: 2;
+}
+
+.things-images .image-box {
+  position: relative;
+}
+
+.things-images .image-box img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.things-images .caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.things-text p {
+  font-size: 16px;
+  color: #555;
+}
